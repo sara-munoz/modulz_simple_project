@@ -44,5 +44,9 @@ class FoodList extends React.Component {
     }
 }
 
+FoodList.propTypes = {
+    food: PropTypes.array,
+};
+
 
 export default FoodList;
